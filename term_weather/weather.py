@@ -23,7 +23,7 @@ class Weather:
     PRECIPITATION_TIME_STAMPS_ROW = [' 0', ' ', "'", ' ', '30', ' ', "'", ' ', '60', ' ', "'", ' ', '90']
     PRECIPITATION_MAX = 5
 
-    def __init__(self, location, language='en', cache_dir='/tmp/term_weather'):
+    def __init__(self, location, auto_load=True, language='en', cache_dir='/tmp/term_weather'):
         """
         Create a interface to the Yr weather xml api http://om.yr.no/verdata/xml/
         :param place: String on the format as inside brackets: yr.no/stad/[Noreg/Telemark/Sauherad/Gvarv]
@@ -38,16 +38,11 @@ class Weather:
         self.location = location
         self.current_cache_dir = os.path.join(self.cache_dir, self.place_to_dir_name(self.location))
         self.base_server_url = self.BASE_URLS[language]
-        if not os.path.exists(self.current_cache_dir):
-            os.makedirs(self.current_cache_dir)
+        self.forecast_data = None
+        self.precipitation_now_data = None
 
-        # To comply with http://om.yr.no/verdata/vilkar/ we have to try to load from cache first
-        try:
-            self._load_from_cache()
-        except OutOfDateError:
-            self._load_from_server()
-        except CacheMissError:
-            self._load_from_server()
+        if auto_load:
+            self._load_forecast_data()
 
     def now(self, show_precipitation_now=True, show_forecast_row=True, bar_height=5, bar_width=5):
         """
@@ -63,6 +58,29 @@ class Weather:
         if show_precipitation_now:
             self._plot_precipitation(bar_height, bar_width)
         self._print_credit()
+
+    def force_load_from_files(self, forecast_file, precipitation_now_file):
+        with open(forecast_file) as f:
+            forecast_xml_data = f.read()
+            self.forecast_data = xmltodict.parse(forecast_xml_data)
+        with open(precipitation_now_file) as f:
+            precipitation_xml_data = f.read()
+            self.precipitation_now_data = xmltodict.parse(precipitation_xml_data)
+
+        self._parse_forecast()
+        self._parse_precipitation_now_forecast()
+
+    def _load_forecast_data(self):
+        if not os.path.exists(self.current_cache_dir):
+            os.makedirs(self.current_cache_dir)
+
+        # To comply with http://om.yr.no/verdata/vilkar/ we have to try to load from cache first
+        try:
+            self._load_from_cache()
+        except OutOfDateError:
+            self._load_from_server()
+        except CacheMissError:
+            self._load_from_server()
 
     def _load_from_cache(self):
         """
