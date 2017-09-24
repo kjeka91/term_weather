@@ -9,6 +9,7 @@ Clone and use pip. This will install the command line tool term_weather as well 
 ```sh
 $ git clone https://github.com/kjeka91/term_weather.git
 $ cd term_weather
+$ pip install --user -r requirements.txt
 $ pip install --user .
 ```
 
@@ -20,7 +21,7 @@ Here the location string is everything after "https://www.yr.no/sted/" again for
 
 Initialize the program by setting a chosen name and the yr location
 ```sh
-$ term_weather init Oslo Norge/Oslo/Oslo/Oslo/
+$ term_weather init Gvarv Noreg/Telemark/Sauherad/Gvarv
 ```
 
 This will create a configuration file named config under ~/.config/term_weather.
@@ -28,12 +29,12 @@ Later you can get a nice representation of the 90 minutes precipitation forecast
 
 ```sh
 $ term_weather now
-Oslo, Norway: 01:00-06:00 | 13.0° | 0.0-0.3mm | 2.1m/s Light breeze | 1028.7hPa
+Gvarv, Norway: 01:00-06:00 | 11.0° | 0.0-0.1mm | 2.0m/s Light breeze | 1025.3hPa
 5.0 |
-3.8 |
-2.6 |
-1.4 |
-0.2 |
+3.8 |                         ||||||||||
+2.6 |                         |||||||||||||||
+1.4 |                    ||||||||||||||||||||
+0.2 |     ||||||||||||||||||||||||||||||||||||||||||||||||||     |||||
        0         '        30         '        60         '        90
 Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK
 http://www.yr.no/place/Norway/Oslo/Oslo/Oslo/
