@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+    <location>
+        <name>Gvarv</name>
+        <type>Small town</type>
+        <country>Norway</country>
+        <timezone id="Europe/Oslo" utcoffsetMinutes="120"/>
+        <location altitude="17" latitude="59.3876666216368" longitude="9.17239325131741" geobase="ssr"
+                  geobaseid="43354"/>
+    </location>
+    <credit>
+        <!--In order to use the free weather data from yr no, you HAVE to display
+    the following text clearly visible on your web page. The text should be a
+    link to the specified URL.-->
+        <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+        <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK"
+              url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/"/>
+    </credit>
+    <links>
+        <link id="xmlSource" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/forecast.xml"/>
+        <link id="xmlSourceHourByHour"
+              url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/forecast_hour_by_hour.xml"/>
+        <link id="overview" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/"/>
+        <link id="hourByHour" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/hour_by_hour"/>
+        <link id="longTermForecast" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/long"/>
+        <link id="radar" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/radar.html"/>
+        <link id="nowcast" url="http://www.yr.no/place/Norway/Telemark/Sauherad/Gvarv/varsel_nu.xml"/>
+    </links>
+    <meta>
+        <lastupdate>2017-09-22T23:04:00</lastupdate>
+        <nextupdate>2017-09-23T06:00:00</nextupdate>
+    </meta>
+    <sun rise="2017-09-23T07:10:14" set="2017-09-23T19:19:40"/>
+    <forecast>
+        <text>
+            <location name="Gvarv">
+                <time from="2017-09-23" to="2017-09-23">
+                    <title>Saturday</title>
+                    <body>&lt;strong&gt;Østlandet og Telemark:&lt;/strong&gt; Øst og nordøstlig bris, opp i frisk bris
+                        på kysten. Skyet, litt yr eller regn av og til, trolig økende i øst i kveld. Disig, stedvis tåke
+                        i høyereliggende strøk.
+                    </body>
+                </time>
+                <time from="2017-09-24" to="2017-09-24">
+                    <title>Sunday</title>
+                    <body>&lt;strong&gt;Østafjells:&lt;/strong&gt; Øst og nordøst bris, perioder med frisk bris på
+                        kysten. For det meste skyet. Litt regn eller yr av og til. Stedvis tåke i høyereliggende
+                        områder.
+                    </body>
+                </time>
+                <time from="2017-09-25" to="2017-09-25">
+                    <title>Monday</title>
+                    <body>&lt;strong&gt;Østafjells:&lt;/strong&gt; Aust og nordaust bris, nordaust frisk bris på kysten
+                        sør for Lyngør. For det meste skyet, litt spredt regn.
+                    </body>
+                </time>
+            </location>
+        </text>
+        <tabular>
+            <time from="2017-09-23T01:00:00" to="2017-09-23T06:00:00" period="0">
+                <!-- Valid from 2017-09-23T01:00:00 to 2017-09-23T06:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0" minvalue="0" maxvalue="0.1"/>
+                <!-- Valid at 2017-09-23T01:00:00 -->
+                <windDirection deg="265.8" code="W" name="West"/>
+                <windSpeed mps="2.0" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1025.3"/>
+            </time>
+            <time from="2017-09-23T06:00:00" to="2017-09-23T12:00:00" period="1">
+                <!-- Valid from 2017-09-23T06:00:00 to 2017-09-23T12:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-23T06:00:00 -->
+                <windDirection deg="276.7" code="W" name="West"/>
+                <windSpeed mps="1.7" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1025.5"/>
+            </time>
+            <time from="2017-09-23T12:00:00" to="2017-09-23T18:00:00" period="2">
+                <!-- Valid from 2017-09-23T12:00:00 to 2017-09-23T18:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-23T12:00:00 -->
+                <windDirection deg="327.6" code="NNW" name="North-northwest"/>
+                <windSpeed mps="0.8" name="Light air"/>
+                <temperature unit="celsius" value="14"/>
+                <pressure unit="hPa" value="1027.6"/>
+            </time>
+            <time from="2017-09-23T18:00:00" to="2017-09-24T00:00:00" period="3">
+                <!-- Valid from 2017-09-23T18:00:00 to 2017-09-24T00:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-23T18:00:00 -->
+                <windDirection deg="299.7" code="WNW" name="West-northwest"/>
+                <windSpeed mps="1.2" name="Light air"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1028.0"/>
+            </time>
+            <time from="2017-09-24T00:00:00" to="2017-09-24T06:00:00" period="0">
+                <!-- Valid from 2017-09-24T00:00:00 to 2017-09-24T06:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0" minvalue="0" maxvalue="0.1"/>
+                <!-- Valid at 2017-09-24T00:00:00 -->
+                <windDirection deg="270.5" code="W" name="West"/>
+                <windSpeed mps="1.7" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1028.7"/>
+            </time>
+            <time from="2017-09-24T06:00:00" to="2017-09-24T12:00:00" period="1">
+                <!-- Valid from 2017-09-24T06:00:00 to 2017-09-24T12:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0" minvalue="0" maxvalue="0.2"/>
+                <!-- Valid at 2017-09-24T06:00:00 -->
+                <windDirection deg="251.9" code="WSW" name="West-southwest"/>
+                <windSpeed mps="1.4" name="Light air"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1028.3"/>
+            </time>
+            <time from="2017-09-24T12:00:00" to="2017-09-24T18:00:00" period="2">
+                <!-- Valid from 2017-09-24T12:00:00 to 2017-09-24T18:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0" minvalue="0" maxvalue="0.2"/>
+                <!-- Valid at 2017-09-24T12:00:00 -->
+                <windDirection deg="54.7" code="NE" name="Northeast"/>
+                <windSpeed mps="1.6" name="Light breeze"/>
+                <temperature unit="celsius" value="14"/>
+                <pressure unit="hPa" value="1030.3"/>
+            </time>
+            <time from="2017-09-24T18:00:00" to="2017-09-25T00:00:00" period="3">
+                <!-- Valid from 2017-09-24T18:00:00 to 2017-09-25T00:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0" minvalue="0" maxvalue="0.2"/>
+                <!-- Valid at 2017-09-24T18:00:00 -->
+                <windDirection deg="28.2" code="NNE" name="North-northeast"/>
+                <windSpeed mps="2.3" name="Light breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1031.8"/>
+            </time>
+            <time from="2017-09-25T00:00:00" to="2017-09-25T06:00:00" period="0">
+                <!-- Valid from 2017-09-25T00:00:00 to 2017-09-25T06:00:00 -->
+                <symbol number="3" numberEx="3" name="Partly cloudy" var="03n"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-25T00:00:00 -->
+                <windDirection deg="265.4" code="W" name="West"/>
+                <windSpeed mps="1.5" name="Light air"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1034.3"/>
+            </time>
+            <time from="2017-09-25T06:00:00" to="2017-09-25T12:00:00" period="1">
+                <!-- Valid from 2017-09-25T06:00:00 to 2017-09-25T12:00:00 -->
+                <symbol number="3" numberEx="3" name="Partly cloudy" var="03d"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-25T06:00:00 -->
+                <windDirection deg="306.7" code="NW" name="Northwest"/>
+                <windSpeed mps="1.3" name="Light air"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1034.1"/>
+            </time>
+            <time from="2017-09-25T14:00:00" to="2017-09-25T20:00:00" period="2">
+                <!-- Valid from 2017-09-25T14:00:00 to 2017-09-25T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-25T14:00:00 -->
+                <windDirection deg="60.5" code="ENE" name="East-northeast"/>
+                <windSpeed mps="4.0" name="Gentle breeze"/>
+                <temperature unit="celsius" value="17"/>
+                <pressure unit="hPa" value="1034.6"/>
+            </time>
+            <time from="2017-09-25T20:00:00" to="2017-09-26T02:00:00" period="3">
+                <!-- Valid from 2017-09-25T20:00:00 to 2017-09-26T02:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-25T20:00:00 -->
+                <windDirection deg="56.7" code="ENE" name="East-northeast"/>
+                <windSpeed mps="2.5" name="Light breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1033.8"/>
+            </time>
+            <time from="2017-09-26T02:00:00" to="2017-09-26T08:00:00" period="0">
+                <!-- Valid from 2017-09-26T02:00:00 to 2017-09-26T08:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-26T02:00:00 -->
+                <windDirection deg="35.3" code="NE" name="Northeast"/>
+                <windSpeed mps="2.7" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1034.0"/>
+            </time>
+            <time from="2017-09-26T08:00:00" to="2017-09-26T14:00:00" period="1">
+                <!-- Valid from 2017-09-26T08:00:00 to 2017-09-26T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-26T08:00:00 -->
+                <windDirection deg="56.6" code="ENE" name="East-northeast"/>
+                <windSpeed mps="2.7" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1034.2"/>
+            </time>
+            <time from="2017-09-26T14:00:00" to="2017-09-26T20:00:00" period="2">
+                <!-- Valid from 2017-09-26T14:00:00 to 2017-09-26T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-26T14:00:00 -->
+                <windDirection deg="54.0" code="NE" name="Northeast"/>
+                <windSpeed mps="4.2" name="Gentle breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1035.1"/>
+            </time>
+            <time from="2017-09-26T20:00:00" to="2017-09-27T02:00:00" period="3">
+                <!-- Valid from 2017-09-26T20:00:00 to 2017-09-27T02:00:00 -->
+                <symbol number="9" numberEx="9" name="Rain" var="09"/>
+                <precipitation value="2.5"/>
+                <!-- Valid at 2017-09-26T20:00:00 -->
+                <windDirection deg="47.5" code="NE" name="Northeast"/>
+                <windSpeed mps="2.6" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1033.6"/>
+            </time>
+            <time from="2017-09-27T02:00:00" to="2017-09-27T08:00:00" period="0">
+                <!-- Valid from 2017-09-27T02:00:00 to 2017-09-27T08:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-27T02:00:00 -->
+                <windDirection deg="47.8" code="NE" name="Northeast"/>
+                <windSpeed mps="2.7" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1035.0"/>
+            </time>
+            <time from="2017-09-27T08:00:00" to="2017-09-27T14:00:00" period="1">
+                <!-- Valid from 2017-09-27T08:00:00 to 2017-09-27T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-27T08:00:00 -->
+                <windDirection deg="43.7" code="NE" name="Northeast"/>
+                <windSpeed mps="2.5" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1035.9"/>
+            </time>
+            <time from="2017-09-27T14:00:00" to="2017-09-27T20:00:00" period="2">
+                <!-- Valid from 2017-09-27T14:00:00 to 2017-09-27T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-27T14:00:00 -->
+                <windDirection deg="59.9" code="ENE" name="East-northeast"/>
+                <windSpeed mps="3.6" name="Gentle breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1036.9"/>
+            </time>
+            <time from="2017-09-27T20:00:00" to="2017-09-28T02:00:00" period="3">
+                <!-- Valid from 2017-09-27T20:00:00 to 2017-09-28T02:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-27T20:00:00 -->
+                <windDirection deg="47.1" code="NE" name="Northeast"/>
+                <windSpeed mps="2.3" name="Light breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1036.9"/>
+            </time>
+            <time from="2017-09-28T02:00:00" to="2017-09-28T08:00:00" period="0">
+                <!-- Valid from 2017-09-28T02:00:00 to 2017-09-28T08:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-28T02:00:00 -->
+                <windDirection deg="40.7" code="NE" name="Northeast"/>
+                <windSpeed mps="2.2" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1036.7"/>
+            </time>
+            <time from="2017-09-28T08:00:00" to="2017-09-28T14:00:00" period="1">
+                <!-- Valid from 2017-09-28T08:00:00 to 2017-09-28T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-28T08:00:00 -->
+                <windDirection deg="40.8" code="NE" name="Northeast"/>
+                <windSpeed mps="2.1" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1036.4"/>
+            </time>
+            <time from="2017-09-28T14:00:00" to="2017-09-28T20:00:00" period="2">
+                <!-- Valid from 2017-09-28T14:00:00 to 2017-09-28T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-28T14:00:00 -->
+                <windDirection deg="57.8" code="ENE" name="East-northeast"/>
+                <windSpeed mps="3.1" name="Light breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1036.8"/>
+            </time>
+            <time from="2017-09-28T20:00:00" to="2017-09-29T02:00:00" period="3">
+                <!-- Valid from 2017-09-28T20:00:00 to 2017-09-29T02:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-28T20:00:00 -->
+                <windDirection deg="74.9" code="ENE" name="East-northeast"/>
+                <windSpeed mps="1.9" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1035.2"/>
+            </time>
+            <time from="2017-09-29T02:00:00" to="2017-09-29T08:00:00" period="0">
+                <!-- Valid from 2017-09-29T02:00:00 to 2017-09-29T08:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-29T02:00:00 -->
+                <windDirection deg="66.2" code="ENE" name="East-northeast"/>
+                <windSpeed mps="1.7" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1034.3"/>
+            </time>
+            <time from="2017-09-29T08:00:00" to="2017-09-29T14:00:00" period="1">
+                <!-- Valid from 2017-09-29T08:00:00 to 2017-09-29T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-29T08:00:00 -->
+                <windDirection deg="33.4" code="NNE" name="North-northeast"/>
+                <windSpeed mps="2.1" name="Light breeze"/>
+                <temperature unit="celsius" value="10"/>
+                <pressure unit="hPa" value="1033.3"/>
+            </time>
+            <time from="2017-09-29T14:00:00" to="2017-09-29T20:00:00" period="2">
+                <!-- Valid from 2017-09-29T14:00:00 to 2017-09-29T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-29T14:00:00 -->
+                <windDirection deg="95.1" code="E" name="East"/>
+                <windSpeed mps="3.0" name="Light breeze"/>
+                <temperature unit="celsius" value="13"/>
+                <pressure unit="hPa" value="1031.9"/>
+            </time>
+            <time from="2017-09-29T20:00:00" to="2017-09-30T02:00:00" period="3">
+                <!-- Valid from 2017-09-29T20:00:00 to 2017-09-30T02:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-29T20:00:00 -->
+                <windDirection deg="68.5" code="ENE" name="East-northeast"/>
+                <windSpeed mps="1.9" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1029.8"/>
+            </time>
+            <time from="2017-09-30T02:00:00" to="2017-09-30T08:00:00" period="0">
+                <!-- Valid from 2017-09-30T02:00:00 to 2017-09-30T08:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-30T02:00:00 -->
+                <windDirection deg="64.1" code="ENE" name="East-northeast"/>
+                <windSpeed mps="2.4" name="Light breeze"/>
+                <temperature unit="celsius" value="10"/>
+                <pressure unit="hPa" value="1028.1"/>
+            </time>
+            <time from="2017-09-30T08:00:00" to="2017-09-30T14:00:00" period="1">
+                <!-- Valid from 2017-09-30T08:00:00 to 2017-09-30T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-30T08:00:00 -->
+                <windDirection deg="66.3" code="ENE" name="East-northeast"/>
+                <windSpeed mps="2.7" name="Light breeze"/>
+                <temperature unit="celsius" value="9"/>
+                <pressure unit="hPa" value="1028.1"/>
+            </time>
+            <time from="2017-09-30T14:00:00" to="2017-09-30T20:00:00" period="2">
+                <!-- Valid from 2017-09-30T14:00:00 to 2017-09-30T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-30T14:00:00 -->
+                <windDirection deg="61.7" code="ENE" name="East-northeast"/>
+                <windSpeed mps="3.3" name="Light breeze"/>
+                <temperature unit="celsius" value="12"/>
+                <pressure unit="hPa" value="1026.8"/>
+            </time>
+            <time from="2017-09-30T20:00:00" to="2017-10-01T02:00:00" period="3">
+                <!-- Valid from 2017-09-30T20:00:00 to 2017-10-01T02:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-09-30T20:00:00 -->
+                <windDirection deg="81.9" code="E" name="East"/>
+                <windSpeed mps="2.7" name="Light breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1026.4"/>
+            </time>
+            <time from="2017-10-01T02:00:00" to="2017-10-01T08:00:00" period="0">
+                <!-- Valid from 2017-10-01T02:00:00 to 2017-10-01T08:00:00 -->
+                <symbol number="9" numberEx="9" name="Rain" var="09"/>
+                <precipitation value="2.8"/>
+                <!-- Valid at 2017-10-01T02:00:00 -->
+                <windDirection deg="57.1" code="ENE" name="East-northeast"/>
+                <windSpeed mps="3.5" name="Gentle breeze"/>
+                <temperature unit="celsius" value="9"/>
+                <pressure unit="hPa" value="1019.7"/>
+            </time>
+            <time from="2017-10-01T08:00:00" to="2017-10-01T14:00:00" period="1">
+                <!-- Valid from 2017-10-01T08:00:00 to 2017-10-01T14:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-10-01T08:00:00 -->
+                <windDirection deg="43.3" code="NE" name="Northeast"/>
+                <windSpeed mps="2.8" name="Light breeze"/>
+                <temperature unit="celsius" value="9"/>
+                <pressure unit="hPa" value="1024.5"/>
+            </time>
+            <time from="2017-10-01T14:00:00" to="2017-10-01T20:00:00" period="2">
+                <!-- Valid from 2017-10-01T14:00:00 to 2017-10-01T20:00:00 -->
+                <symbol number="4" numberEx="4" name="Cloudy" var="04"/>
+                <precipitation value="0"/>
+                <!-- Valid at 2017-10-01T14:00:00 -->
+                <windDirection deg="105.1" code="ESE" name="East-southeast"/>
+                <windSpeed mps="3.8" name="Gentle breeze"/>
+                <temperature unit="celsius" value="11"/>
+                <pressure unit="hPa" value="1026.4"/>
+            </time>
+            <time from="2017-10-01T20:00:00" to="2017-10-02T02:00:00" period="3">
+                <!-- Valid from 2017-10-01T20:00:00 to 2017-10-02T02:00:00 -->
+                <symbol number="9" numberEx="9" name="Rain" var="09"/>
+                <precipitation value="2.9"/>
+                <!-- Valid at 2017-10-01T20:00:00 -->
+                <windDirection deg="50.1" code="NE" name="Northeast"/>
+                <windSpeed mps="3.5" name="Gentle breeze"/>
+                <temperature unit="celsius" value="10"/>
+                <pressure unit="hPa" value="1013.6"/>
+            </time>
+            <time from="2017-10-02T02:00:00" to="2017-10-02T08:00:00" period="0">
+                <!-- Valid from 2017-10-02T02:00:00 to 2017-10-02T08:00:00 -->
+                <symbol number="9" numberEx="9" name="Rain" var="09"/>
+                <precipitation value="2.8"/>
+                <!-- Valid at 2017-10-02T02:00:00 -->
+                <windDirection deg="51.6" code="NE" name="Northeast"/>
+                <windSpeed mps="4.0" name="Gentle breeze"/>
+                <temperature unit="celsius" value="9"/>
+                <pressure unit="hPa" value="1013.1"/>
+            </time>
+        </tabular>
+    </forecast>
+    <observations>
+        <weatherstation stno="32060" sttype="eklima" name="Gvarv" distance="2368" lat="59.38220" lon="9.21280"
+                        source="Meteorologisk Institutt">
+            <temperature unit="celsius" value="10.5" time="2017-09-22T22:00:00Z"/>
+            <windDirection deg="34.0" code="NE" name="Northeast" time="2017-09-22T22:00:00Z"/>
+            <windSpeed mps="0.7" name="Light air" time="2017-09-22T22:00:00Z"/>
+        </weatherstation>
+        <weatherstation stno="32240" sttype="eklima" name="Bø (Glennahaugen)" distance="8786" lat="59.41750"
+                        lon="9.02870" source="Meteorologisk Institutt">
+            <temperature unit="celsius" value="10.6" time="2017-09-22T22:00:00Z"/>
+        </weatherstation>
+        <weatherstation stno="32220" sttype="eklima" name="Lifjell" distance="16617" lat="59.50220" lon="8.98370"
+                        source="Meteorologisk Institutt">
+            <temperature unit="celsius" value="4.2" time="2017-09-22T22:00:00Z"/>
+            <windDirection deg="26.0" code="NNE" name="North-northeast" time="2017-09-22T22:00:00Z"/>
+            <windSpeed mps="2.6" name="Light breeze" time="2017-09-22T22:00:00Z"/>
+        </weatherstation>
+    </observations>
+</weatherdata>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <credit>
+    <!--For å bruke gratis værdata fra Yr, MÅ du vise følgende tekst godt synlig på nettsiden din. Teksten skal være en lenke til URL-en som er spesifisert.-->
+    <!--Les mer om vilkår for bruk av gratis værdata + retningslinjer på 
+http://om.yr.no/verdata/ -->
+    <link text="Værvarsel fra Yr, levert av NRK og Meteorologisk institutt" url="http://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/" />
+  </credit>
+  <meta>
+    <lastupdate>2017-09-22T23:29:23</lastupdate>
+    <nextupdate>2017-09-22T23:36:53</nextupdate>
+  </meta>
+  <forecast>
+    <time from="2017-09-22T23:37:30" to="2017-09-22T23:37:30">
+      <precipitation unit="mm/h" value="0.2" />
+      <!-- Valid at 2017-09-22T23:37:30 -->
+    </time>
+    <time from="2017-09-22T23:45:00" to="2017-09-22T23:45:00">
+      <precipitation unit="mm/h" value="0.4" />
+      <!-- Valid at 2017-09-22T23:45:00 -->
+    </time>
+    <time from="2017-09-22T23:52:30" to="2017-09-22T23:52:30">
+      <precipitation unit="mm/h" value="0.8" />
+      <!-- Valid at 2017-09-22T23:52:30 -->
+    </time>
+    <time from="2017-09-23T00:00:00" to="2017-09-23T00:00:00">
+      <precipitation unit="mm/h" value="1.4" />
+      <!-- Valid at 2017-09-23T00:00:00 -->
+    </time>
+    <time from="2017-09-23T00:07:30" to="2017-09-23T00:07:30">
+      <precipitation unit="mm/h" value="1.9" />
+      <!-- Valid at 2017-09-23T00:07:30 -->
+    </time>
+    <time from="2017-09-23T00:15:00" to="2017-09-23T00:15:00">
+      <precipitation unit="mm/h" value="4.9" />
+      <!-- Valid at 2017-09-23T00:15:00 -->
+    </time>
+    <time from="2017-09-23T00:22:30" to="2017-09-23T00:22:30">
+      <precipitation unit="mm/h" value="4.9" />
+      <!-- Valid at 2017-09-23T00:22:30 -->
+    </time>
+    <time from="2017-09-23T00:30:00" to="2017-09-23T00:30:00">
+      <precipitation unit="mm/h" value="3.2" />
+      <!-- Valid at 2017-09-23T00:30:00 -->
+    </time>
+    <time from="2017-09-23T00:37:30" to="2017-09-23T00:37:30">
+      <precipitation unit="mm/h" value="1.0" />
+      <!-- Valid at 2017-09-23T00:37:30 -->
+    </time>
+    <time from="2017-09-23T00:45:00" to="2017-09-23T00:45:00">
+      <precipitation unit="mm/h" value="0.5" />
+      <!-- Valid at 2017-09-23T00:45:00 -->
+    </time>
+    <time from="2017-09-23T00:52:30" to="2017-09-23T00:52:30">
+      <precipitation unit="mm/h" value="0.3" />
+      <!-- Valid at 2017-09-23T00:52:30 -->
+    </time>
+    <time from="2017-09-23T01:00:00" to="2017-09-23T01:00:00">
+      <precipitation unit="mm/h" value="0.2" />
+      <!-- Valid at 2017-09-23T01:00:00 -->
+    </time>
+    <time from="2017-09-23T01:07:30" to="2017-09-23T01:07:30">
+      <precipitation unit="mm/h" value="1.3" />
+      <!-- Valid at 2017-09-23T01:07:30 -->
+    </time>
+  </forecast>
+</weatherdata>
