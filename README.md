@@ -1,6 +1,6 @@
 # term_weather
 
-Command line tool based on Click for forecast to terminal from Yr which currently only works in Norway.
+Command line tool based on Click to parse the xml weather forecast service from yr.no and show in terminal.
 
 # Installation
 
